@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Breeds</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -12,21 +15,29 @@
 </header>
 
 <main>
-    <section>
+
+    <!-- Breed information section -->
+    <section class="content-section">
         <h2>Common Breeds</h2>
         <p>Popular cat breeds include Persian, Siamese, Maine Coon, and Bengal.</p>
         <p>Each breed has different personality traits.</p>
     </section>
 
-    <section>
-        <h2>Breed Photo</h2>
-        <img src="/images/cat2.jpg" alt="A fluffy cat" width="400">
-    </section>
+    <!-- Flexbox layout -->
+    <div class="flex-container">
 
-    <section>
-        <h2>Another Cat</h2>
-        <img src="/images/cat3.jpg" alt="Another cute cat" width="400">
-    </section>
+        <section class="content-section">
+            <h2>Breed Photo</h2>
+            <img src="images/cat2.jpg" alt="A fluffy cat" width="300">
+        </section>
+
+        <section class="content-section">
+            <h2>Another Cat</h2>
+            <img src="images/cat3.jpg" alt="Another cute cat" width="300">
+        </section>
+
+    </div>
+
 </main>
 
 <footer>

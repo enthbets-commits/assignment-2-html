@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Cats</title>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -12,14 +15,18 @@
 </header>
 
 <main>
-    <section>
+
+    <!-- Introduction section -->
+    <section id="intro" class="content-section">
         <h2>Introduction to Cats</h2>
         <p>Cats are popular pets known for being playful and independent.</p>
         <p>They come in many breeds and enjoy resting in warm, quiet places.</p>
     </section>
 
-    <section>
+    <!-- Fun facts section -->
+    <section id="facts" class="content-section">
         <h2>Fun Facts</h2>
+
         <ul>
             <li>Cats sleep most of the day</li>
             <li>They have sharp senses</li>
@@ -33,10 +40,21 @@
         </ol>
     </section>
 
-    <section>
-        <h2>Cat Photo</h2>
-        <img src="/images/cat1.jpg" alt="A cute cat" width="400">
-    </section>
+    <!-- Flexbox layout section -->
+    <div class="flex-container">
+
+        <section class="content-section">
+            <h2>Cat Photo</h2>
+            <img src="images/cat1.jpg" alt="A cute cat" width="300">
+        </section>
+
+        <section class="content-section">
+            <h2>Care Tip</h2>
+            <p>Provide toys, scratching posts, and regular checkups to keep cats healthy.</p>
+        </section>
+
+    </div>
+
 </main>
 
 <footer>

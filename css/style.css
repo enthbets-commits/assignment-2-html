@@ -1,0 +1,73 @@
+/* ---------------------- */
+/* Tag-based styles       */
+/* ---------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ---------------------- */
+/* Class and ID selectors */
+/* ---------------------- */
+
+.content-section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#intro {
+    border-left: 5px solid #ff9800;
+    padding-left: 10px;
+}
+
+#facts {
+    border-left: 5px solid #4caf50;
+    padding-left: 10px;
+}
+
+/* ---------------------- */
+/* Flexbox layout         */
+/* ---------------------- */
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+/* ---------------------- */
+/* Footer styles          */
+/* ---------------------- */
+
+footer {
+    background-color: #ddd;
+    padding: 15px;
+    text-align: center;
+}
