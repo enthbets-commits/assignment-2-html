@@ -1,3 +1,9 @@
+<!-- 
+    Accessibility update:
+    Improved heading structure, meaningful link text,
+    and descriptive alt text for screen readers.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Cats</title>
 
-    <!-- Link to external CSS file -->
+    <!-- External stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -14,43 +20,51 @@
     <h1>All About Cats</h1>
 </header>
 
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Learn About Cat Breeds</a></li>
+    </ul>
+</nav>
+
 <main>
 
-    <!-- Introduction section -->
     <section id="intro" class="content-section">
         <h2>Introduction to Cats</h2>
-        <p>Cats are popular pets known for being playful and independent.</p>
-        <p>They come in many breeds and enjoy resting in warm, quiet places.</p>
+        <p>Cats are popular household pets known for being playful, independent, and intelligent.</p>
+        <p>They come in many breeds and often enjoy relaxing in warm, quiet spaces.</p>
     </section>
 
-    <!-- Fun facts section -->
     <section id="facts" class="content-section">
-        <h2>Fun Facts</h2>
+        <h2>Fun Facts About Cats</h2>
 
+        <h3>Interesting Behaviors</h3>
         <ul>
-            <li>Cats sleep most of the day</li>
-            <li>They have sharp senses</li>
-            <li>They are great jumpers</li>
+            <li>Cats sleep between 12–16 hours per day.</li>
+            <li>They have highly sensitive hearing.</li>
+            <li>Cats can jump up to six times their body length.</li>
         </ul>
 
+        <h3>Basic Care Steps</h3>
         <ol>
-            <li>Feed your cat daily</li>
-            <li>Give clean water</li>
-            <li>Visit the vet</li>
+            <li>Provide balanced nutrition daily.</li>
+            <li>Ensure access to clean, fresh water.</li>
+            <li>Schedule regular veterinary visits.</li>
         </ol>
     </section>
 
-    <!-- Flexbox layout section -->
     <div class="flex-container">
 
         <section class="content-section">
-            <h2>Cat Photo</h2>
-            <img src="images/cat1.jpg" alt="A cute cat" width="300">
+            <h2>Cat Photo Example</h2>
+            <img src="images/cat1.jpg"
+                 alt="White Persian cat resting on a blue velvet couch"
+                 width="300">
         </section>
 
         <section class="content-section">
-            <h2>Care Tip</h2>
-            <p>Provide toys, scratching posts, and regular checkups to keep cats healthy.</p>
+            <h2>Health Tip</h2>
+            <p>Providing scratching posts and interactive toys keeps cats physically active and mentally stimulated.</p>
         </section>
 
     </div>
@@ -58,7 +72,9 @@
 </main>
 
 <footer>
-    <a href="page2.html">Read more on Page 2</a>
+    <p>
+        <a href="page2.html">Explore different cat breeds on the next page</a>
+    </p>
 </footer>
 
 </body>
