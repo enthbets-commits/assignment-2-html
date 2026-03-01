@@ -5,52 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Breeds</title>
 
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
+<header class="bg-dark text-white text-center p-3">
     <h1>Popular Cat Breeds</h1>
 </header>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Return to Home Page</a></li>
+<nav class="bg-light p-2">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Return to Home</a>
+        </li>
     </ul>
 </nav>
 
-<main>
+<main class="container mt-4">
 
-    <section class="content-section">
+    <section class="content-section mb-4">
         <h2>Common Breeds</h2>
-        <p>Some well-known cat breeds include the Persian, Siamese, Maine Coon, and Bengal.</p>
-        <p>Each breed has unique personality traits and grooming needs.</p>
+        <p>Popular cat breeds include Persian, Siamese, Maine Coon, and Bengal.</p>
+        <p>Each breed has unique personality traits.</p>
     </section>
 
-    <div class="flex-container">
+    <!-- Bootstrap Grid -->
+    <div class="row">
 
-        <section class="content-section">
-            <h2>Persian Cat Example</h2>
-            <img src="images/cat2.jpg"
-                 alt="Gray tabby kitten sleeping peacefully on a couch"
-                 width="300">
+        <section class="col-md-6 content-section">
+            <h2>Persian Cat</h2>
+            <img src="images/cat2.jpg" alt="Gray kitten sleeping on couch" class="img-fluid">
         </section>
 
-        <section class="content-section">
-            <h2>Outdoor Cat Example</h2>
-            <img src="images/cat3.jpg"
-                 alt="Brown tabby cat sitting alert in green grass outdoors"
-                 width="300">
+        <section class="col-md-6 content-section">
+            <h2>Outdoor Cat</h2>
+            <img src="images/cat3.jpg" alt="Brown tabby cat sitting in grass" class="img-fluid">
         </section>
 
     </div>
 
 </main>
 
-<footer>
-    <p>
-        <a href="index.html">Go back to the All About Cats homepage</a>
-    </p>
+<footer class="bg-dark text-white text-center p-3">
+    <a href="index.html" class="btn btn-success mt-2">Back to Home</a>
 </footer>
 
 </body>
