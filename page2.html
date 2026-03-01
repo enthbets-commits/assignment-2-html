@@ -5,53 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Breeds</title>
 
-    <!-- Bootstrap CDN -->
+    <!-- Bootstrap CDN (REQUIRED) -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<header class="bg-dark text-white text-center p-3">
+<header class="bg-dark text-white text-center p-4">
     <h1>Popular Cat Breeds</h1>
 </header>
 
-<nav class="bg-light p-2">
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">Return to Home</a>
-        </li>
-    </ul>
+<nav class="bg-light">
+    <div class="container">
+        <ul class="nav justify-content-center py-2">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Return to Home</a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <main class="container mt-4">
 
-    <section class="content-section mb-4">
-        <h2>Common Breeds</h2>
+    <section class="mb-4">
+        <h2>Common Cat Breeds</h2>
         <p>Popular cat breeds include Persian, Siamese, Maine Coon, and Bengal.</p>
-        <p>Each breed has unique personality traits.</p>
+        <p>Each breed has unique personality traits and grooming needs.</p>
     </section>
 
-    <!-- Bootstrap Grid -->
     <div class="row">
 
-        <section class="col-md-6 content-section">
+        <div class="col-md-6 mb-4">
             <h2>Persian Cat</h2>
-            <img src="images/cat2.jpg" alt="Gray kitten sleeping on couch" class="img-fluid">
-        </section>
+            <img src="images/cat2.jpg"
+                 alt="Gray kitten sleeping peacefully on a couch"
+                 class="img-fluid rounded">
+        </div>
 
-        <section class="col-md-6 content-section">
+        <div class="col-md-6 mb-4">
             <h2>Outdoor Cat</h2>
-            <img src="images/cat3.jpg" alt="Brown tabby cat sitting in grass" class="img-fluid">
-        </section>
+            <img src="images/cat3.jpg"
+                 alt="Brown tabby cat sitting in green grass"
+                 class="img-fluid rounded">
+        </div>
 
     </div>
 
 </main>
 
-<footer class="bg-dark text-white text-center p-3">
-    <a href="index.html" class="btn btn-success mt-2">Back to Home</a>
+<footer class="bg-dark text-white text-center p-4">
+    <a href="index.html" class="btn btn-success">Back to Home</a>
 </footer>
 
 </body>
